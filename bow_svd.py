@@ -79,6 +79,8 @@ if __name__ == "__main__" :
 	out_dir = args.out_dir
 	
 	paragraphs = Paragraphs(istex=istex, ucbl=ucbl, istex_mr=istex_mr_file, wiki=wiki_dir, max_nb_wiki_paragraphs=max_nb_wiki, paragraphs_per_article=paragraphs_per_article)
+	print(paragraphs.shape)
+	exit()
 
 	if vectorizer_type == "count":
 		vectorizer = CountVectorizer(input='content',
