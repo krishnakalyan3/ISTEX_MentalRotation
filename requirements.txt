@@ -1,0 +1,6 @@
+spacy
+gensim
+sklearn
+nltk
+numpy
+elasticsearch
