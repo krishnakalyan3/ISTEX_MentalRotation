@@ -87,5 +87,4 @@ if __name__ == "__main__":
 
     paragraphs = Paragraphs(istex=istex, ucbl=ucbl, istex_mr=istex_mr_file, wiki=wiki_dir,
                             max_nb_wiki_paragraphs=max_nb_wiki, paragraphs_per_article=paragraphs_per_article)
-    print(paragraphs.shape)
     pickle.dump(paragraphs, open('para_pickle.pickle', 'wb'))

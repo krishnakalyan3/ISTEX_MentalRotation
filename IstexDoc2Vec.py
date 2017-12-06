@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# This file is part of Beard.
+# This file is p
+# art of Beard.
 # Copyright (C) 2016 3ST ERIC Laboratory.
 #
 # This is a free software; you can redistribute it and/or modify it
